@@ -1,0 +1,4 @@
+{
+  "privateConfigPath": "./config/private.json",
+  "proxyPort": 4323
+}

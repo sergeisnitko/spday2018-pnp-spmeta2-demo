@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.28.1807.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-70F816E915564DA3B05CDA2AD9C46E5E">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-70F816E915564DA3B05CDA2AD9C46E5E" Version="1" BaseSiteTemplate="STS#0" Scope="RootSite">
+      <pnp:WebSettings RequestAccessEmail="" NoCrawl="false" WelcomePage="Lists/Contacts" SiteLogo="" AlternateCSS="" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/seattle.master" />
+      <pnp:RegionalSettings AdjustHijriDays="0" AlternateCalendarType="None" CalendarType="Gregorian" Collation="25" FirstDayOfWeek="Sunday" FirstWeekOfYear="0" LocaleId="1033" ShowWeeks="false" Time24="false" TimeZone="13" WorkDayEndHour="5:00PM" WorkDays="62" WorkDayStartHour="8:00AM" />
+      <pnp:PropertyBagEntries>
+        <pnp:PropertyBagEntry Key="spmeta2.incremental_state.Preparing: Demos Site Demo" Value="&lt;ModelHash xmlns=&quot;http://schemas.datacontract.org/2004/07/SPMeta2.Common&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Hash i:nil=&quot;true&quot;/&gt;&lt;ModelNodes&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath/&gt;&lt;DefinitionFullPathHash/&gt;&lt;DefinitionHash&gt;2tnpzfd1N9mY7lPqVz8mYQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;PrefixName:;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;1PA2ohf6R5bOVsmwsebVEw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;/ModelNodes&gt;&lt;/ModelHash&gt;" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="spmeta2.incremental_state.Preparing: Demos Web Demo Data" Value="&lt;ModelHash xmlns=&quot;http://schemas.datacontract.org/2004/07/SPMeta2.Common&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Hash i:nil=&quot;true&quot;/&gt;&lt;ModelNodes&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath/&gt;&lt;DefinitionFullPathHash/&gt;&lt;DefinitionHash&gt;bTuwPPf3y0Apo1Mv/MSSQA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Url:/&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;nV6hlstMd8GlLKaj9ZyUJw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;7WsBPYKjMsKlxGls7RXmpQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K9W8CUyAoS+6gPFcU1BlXw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;sE2Zv0v8Kx2vKVHXNkR1nw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;/ModelNodes&gt;&lt;/ModelHash&gt;" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="spmeta2.incremental_state.Demos Site Demo" Value="&lt;ModelHash xmlns=&quot;http://schemas.datacontract.org/2004/07/SPMeta2.Common&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Hash i:nil=&quot;true&quot;/&gt;&lt;ModelNodes&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath/&gt;&lt;DefinitionFullPathHash/&gt;&lt;DefinitionHash&gt;2tnpzfd1N9mY7lPqVz8mYQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;PrefixName:;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;1PA2ohf6R5bOVsmwsebVEw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Name:Demos.Portal.M2Artefacts&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;e2DRqob01IqWv8tCSMRRxA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;wVKlS41BngfbiSNSJKFd7A==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Name:Demos.Portal.M2Artefacts&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;e2DRqob01IqWv8tCSMRRxA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Title:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;2ek+gfbTEFW/Kr8SPZLNvw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Title:/CustomUrl:_catalogs/masterpage;Url:_catalogs/masterpage&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==/Pc32hX0ZXqUWNpjfAC0PTg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;djZFBbqCuNESRfkZE8eRIQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:_catalogs/masterpage;Url:_catalogs/masterpage&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;Pc32hX0ZXqUWNpjfAC0PTg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Title:/CustomUrl:_catalogs/masterpage;Url:_catalogs/masterpage/Name:Demos&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==/Pc32hX0ZXqUWNpjfAC0PTg==/ZUM3/iKEs5hT1WyBhW05VQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;fR8SlxYIBEmMPwdZi+EiEA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Name:Demos&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;ZUM3/iKEs5hT1WyBhW05VQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Title:/CustomUrl:_catalogs/masterpage;Url:_catalogs/masterpage/Name:Demos/Name:M2.Demo&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==/Pc32hX0ZXqUWNpjfAC0PTg==/ZUM3/iKEs5hT1WyBhW05VQ==/Itny5izK9W5GvEVI5pVVqw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;1G/Dyd+fTp+Bff2OsFNjdA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Name:M2.Demo&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;Itny5izK9W5GvEVI5pVVqw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Title:/CustomUrl:_catalogs/masterpage;Url:_catalogs/masterpage/Name:Demos/Name:M2.Demo/FileName:Demos.m2.artefacts.js&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==/Pc32hX0ZXqUWNpjfAC0PTg==/ZUM3/iKEs5hT1WyBhW05VQ==/Itny5izK9W5GvEVI5pVVqw==/Hy7lyWTa2TSEPt6ehWwURg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;m+Vs92CxGTpGDZf9t4NEWg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FileName:Demos.m2.artefacts.js&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;Hy7lyWTa2TSEPt6ehWwURg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Title:/CustomUrl:_catalogs/masterpage;Url:_catalogs/masterpage/Name:Demos/Name:M2.Demo/FileName:spmeta2.artefacts.js&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;Ueyb9KrqsbJbtX+fjU3lVw==/Pc32hX0ZXqUWNpjfAC0PTg==/ZUM3/iKEs5hT1WyBhW05VQ==/Itny5izK9W5GvEVI5pVVqw==/I+0pFZY8HdNhURBNr4a46w==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;zXVxGXRjh0JgF+mIjsH1PA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FileName:spmeta2.artefacts.js&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;I+0pFZY8HdNhURBNr4a46w==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;/ModelNodes&gt;&lt;/ModelHash&gt;" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="spmeta2.incremental_state.Demos Web Demo" Value="&lt;ModelHash xmlns=&quot;http://schemas.datacontract.org/2004/07/SPMeta2.Common&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Hash i:nil=&quot;true&quot;/&gt;&lt;ModelNodes&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath/&gt;&lt;DefinitionFullPathHash/&gt;&lt;DefinitionHash&gt;bTuwPPf3y0Apo1Mv/MSSQA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Url:/&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;nV6hlstMd8GlLKaj9ZyUJw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:87294c72-f260-42f3-a41b-981a2ffce37a&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;7UsT7wXnVcbd5eYl3heZwQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;Vbq/krekZSIFKEWHsJ2ElA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:87294c72-f260-42f3-a41b-981a2ffce37a&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;7UsT7wXnVcbd5eYl3heZwQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:3d7d0c49-f609-4408-8061-17b08f10bcd3;InternalName:DemosEmail&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;1gxiLNO6fvHkSrhG0EisOw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;ff9EekF9GgfswNy57VG1Og==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:3d7d0c49-f609-4408-8061-17b08f10bcd3;InternalName:DemosEmail&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;1gxiLNO6fvHkSrhG0EisOw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:4a8f48f6-6621-4ab1-9bc8-17aba1f2776c;InternalName:DemosPhoneNumber&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;ZDpCU8cOblC1DDEV8+Xp5Q==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;Bum318La8oz1Rod2BuMqVw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:4a8f48f6-6621-4ab1-9bc8-17aba1f2776c;InternalName:DemosPhoneNumber&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;ZDpCU8cOblC1DDEV8+Xp5Q==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea;InternalName:DemosEmployeesCount&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;bTM9WCZFKVZFrs9BYrnpCw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;y1tL4HNaV4TXVygQUQ5n5Q==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea;InternalName:DemosEmployeesCount&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;bTM9WCZFKVZFrs9BYrnpCw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:8a10aaec-481d-494c-b412-3a626851d20c;InternalName:DemosOwnerLookup&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;o5lv8502Z4ne0ijJBZ2FJg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;KqVzBuz7g8SJuQXunLRIig==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:8a10aaec-481d-494c-b412-3a626851d20c;InternalName:DemosOwnerLookup&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;o5lv8502Z4ne0ijJBZ2FJg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:06b7f721-66e7-45a7-8be2-ff64920c5331;InternalName:DemosFunctionLookup&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;lotCSG8bs9H60mpswYJc2A==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;qnMYOPCqe9A3+XT2I2yuOA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:06b7f721-66e7-45a7-8be2-ff64920c5331;InternalName:DemosFunctionLookup&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;lotCSG8bs9H60mpswYJc2A==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:1911b836-07cb-4b60-83d0-21f81ad894d4;IdNumberValue:;Name:Demos Contact&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;n1vXB1p23tP7POnpwn2FoQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;E/30dbP7utrJWZsYlJBsoQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:1911b836-07cb-4b60-83d0-21f81ad894d4;IdNumberValue:;Name:Demos Contact&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;n1vXB1p23tP7POnpwn2FoQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:1911b836-07cb-4b60-83d0-21f81ad894d4;IdNumberValue:;Name:Demos Contact/FieldId:fa564e0f-0c70-4ab9-b863-0177e6ddd247;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;n1vXB1p23tP7POnpwn2FoQ==///75D0TM4CFycu8w5CHiQA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;qzJRt6bZSYkPQsTPRJ1prQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:fa564e0f-0c70-4ab9-b863-0177e6ddd247;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;//75D0TM4CFycu8w5CHiQA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:1911b836-07cb-4b60-83d0-21f81ad894d4;IdNumberValue:;Name:Demos Contact/FieldId:3d7d0c49-f609-4408-8061-17b08f10bcd3;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;n1vXB1p23tP7POnpwn2FoQ==/FpNqj7YWGramS17Y3XQ1LA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;kufejBbnlQDpifkA587OWw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:3d7d0c49-f609-4408-8061-17b08f10bcd3;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;FpNqj7YWGramS17Y3XQ1LA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:1911b836-07cb-4b60-83d0-21f81ad894d4;IdNumberValue:;Name:Demos Contact/FieldId:4a8f48f6-6621-4ab1-9bc8-17aba1f2776c;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;n1vXB1p23tP7POnpwn2FoQ==/RGM8UTb+HNSjbnbhg3w7Lw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;SXa/jegafLmY0Vkj/Ne+Xw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:4a8f48f6-6621-4ab1-9bc8-17aba1f2776c;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;RGM8UTb+HNSjbnbhg3w7Lw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:a6805fa0-b205-4cd5-8fa5-b33768510c9d;IdNumberValue:;Name:Demos Function&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;qf3gCEWy2FLH9bKfJZ75CA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;q8zp0tpYgxsbUrS9WXex1g==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:a6805fa0-b205-4cd5-8fa5-b33768510c9d;IdNumberValue:;Name:Demos Function&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;qf3gCEWy2FLH9bKfJZ75CA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:a6805fa0-b205-4cd5-8fa5-b33768510c9d;IdNumberValue:;Name:Demos Function/FieldId:8a10aaec-481d-494c-b412-3a626851d20c;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;qf3gCEWy2FLH9bKfJZ75CA==/NZKNGV6H5kZ9YYefhA9P1A==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;5Nj45tsVNQo97DRwgNlqtg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:8a10aaec-481d-494c-b412-3a626851d20c;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;NZKNGV6H5kZ9YYefhA9P1A==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:a6805fa0-b205-4cd5-8fa5-b33768510c9d;IdNumberValue:;Name:Demos Function/FieldId:e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;qf3gCEWy2FLH9bKfJZ75CA==/BSZWeDZlVOA6vIRJ5vAVQA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;xc2KjYJL4Fdb9JYngw2WPA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;BSZWeDZlVOA6vIRJ5vAVQA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:ca80e492-4904-441c-b3c5-6f2648d150e7;IdNumberValue:;Name:Demos SubFunction&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;rAR1ZIMLt7GYTyuc0lCxLA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;PZssddKIPdcBQVOMbqdiIg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Id:ca80e492-4904-441c-b3c5-6f2648d150e7;IdNumberValue:;Name:Demos SubFunction&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;rAR1ZIMLt7GYTyuc0lCxLA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:ca80e492-4904-441c-b3c5-6f2648d150e7;IdNumberValue:;Name:Demos SubFunction/FieldId:06b7f721-66e7-45a7-8be2-ff64920c5331;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;rAR1ZIMLt7GYTyuc0lCxLA==/pWWD3WMe8IaLVexMDCX5ag==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;qjwnaViqa0CkYCbU1Hh0Dg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:06b7f721-66e7-45a7-8be2-ff64920c5331;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;pWWD3WMe8IaLVexMDCX5ag==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Id:ca80e492-4904-441c-b3c5-6f2648d150e7;IdNumberValue:;Name:Demos SubFunction/FieldId:8a10aaec-481d-494c-b412-3a626851d20c;FieldInternalName:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;rAR1ZIMLt7GYTyuc0lCxLA==/NZKNGV6H5kZ9YYefhA9P1A==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;5Nj45tsVNQo97DRwgNlqtg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;FieldId:8a10aaec-481d-494c-b412-3a626851d20c;FieldInternalName:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;NZKNGV6H5kZ9YYefhA9P1A==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;7WsBPYKjMsKlxGls7RXmpQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/ContentTypeId:0x01001911B83607CB4B6083D021F81AD894D4;ContentTypeName:Demos Contact&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/YyI3Gh6PGCEVPX2TIyFnwg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;BKEuaa0DE0QEcwQLb0GGWA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;ContentTypeId:0x01001911B83607CB4B6083D021F81AD894D4;ContentTypeName:Demos Contact&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;YyI3Gh6PGCEVPX2TIyFnwg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/ContentTypes:System.Collections.Generic.List`1[SPMeta2.Definitions.ContentTypes.ContentTypeLinkValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/jcSEQCJyFOmHGMqKG0xhyg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K/a8NydKuYdfVsoKw1ND1Q==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;ContentTypes:System.Collections.Generic.List`1[SPMeta2.Definitions.ContentTypes.ContentTypeLinkValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;jcSEQCJyFOmHGMqKG0xhyg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:All Items;Url:AllItems.aspx&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/3YELGYtdK4UIUf6ceHp4Tg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;MFHD2dM9PuhDANhC/Py7hQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:All Items;Url:AllItems.aspx&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;3YELGYtdK4UIUf6ceHp4Tg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K9W8CUyAoS+6gPFcU1BlXw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/ContentTypeId:0x0100A6805FA0B2054CD58FA5B33768510C9D;ContentTypeName:Demos Function&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/NhlajhlDPjJ3x9DO39y1sw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;aNyQR9LgGmVrMMLJD7o8jg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;ContentTypeId:0x0100A6805FA0B2054CD58FA5B33768510C9D;ContentTypeName:Demos Function&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;NhlajhlDPjJ3x9DO39y1sw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/ContentTypes:System.Collections.Generic.List`1[SPMeta2.Definitions.ContentTypes.ContentTypeLinkValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/jcSEQCJyFOmHGMqKG0xhyg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K/a8NydKuYdfVsoKw1ND1Q==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;ContentTypes:System.Collections.Generic.List`1[SPMeta2.Definitions.ContentTypes.ContentTypeLinkValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;jcSEQCJyFOmHGMqKG0xhyg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:All Items;Url:AllItems.aspx&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/3YELGYtdK4UIUf6ceHp4Tg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;yJ+RBX4+LGb3w2qABUPDvg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:All Items;Url:AllItems.aspx&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;3YELGYtdK4UIUf6ceHp4Tg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;sE2Zv0v8Kx2vKVHXNkR1nw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/ContentTypeId:0x0100CA80E4924904441CB3C56F2648D150E7;ContentTypeName:Demos SubFunction&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/VxLuLJdvBN8aM5UA1T2JbQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;4Z2b7uMRT/DwyqLOCt+jnQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;ContentTypeId:0x0100CA80E4924904441CB3C56F2648D150E7;ContentTypeName:Demos SubFunction&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;VxLuLJdvBN8aM5UA1T2JbQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/ContentTypes:System.Collections.Generic.List`1[SPMeta2.Definitions.ContentTypes.ContentTypeLinkValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/jcSEQCJyFOmHGMqKG0xhyg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K/a8NydKuYdfVsoKw1ND1Q==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;ContentTypes:System.Collections.Generic.List`1[SPMeta2.Definitions.ContentTypes.ContentTypeLinkValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;jcSEQCJyFOmHGMqKG0xhyg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:All Items;Url:AllItems.aspx&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/3YELGYtdK4UIUf6ceHp4Tg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;PMJZ1N4O+S9VtjEVtmgVCw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:All Items;Url:AllItems.aspx&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;3YELGYtdK4UIUf6ceHp4Tg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;Url:Lists/Contacts&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;PPyZpvBWlzZbOD6M2i4K6w==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;5XehzS1shxLTttwlPPTCSg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Url:Lists/Contacts&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;PPyZpvBWlzZbOD6M2i4K6w==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;/ModelNodes&gt;&lt;/ModelHash&gt;" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="spmeta2.incremental_state.Demos Web Demo Data" Value="&lt;ModelHash xmlns=&quot;http://schemas.datacontract.org/2004/07/SPMeta2.Common&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Hash i:nil=&quot;true&quot;/&gt;&lt;ModelNodes&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath/&gt;&lt;DefinitionFullPathHash/&gt;&lt;DefinitionHash&gt;bTuwPPf3y0Apo1Mv/MSSQA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Url:/&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;nV6hlstMd8GlLKaj9ZyUJw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;7WsBPYKjMsKlxGls7RXmpQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:Sergei snitko&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/6j+1TfppIeuEEs0NnusxhA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;Wd+uwSaSDxddiSgJAEvt4Q==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Sergei snitko&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;6j+1TfppIeuEEs0NnusxhA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:Sergei snitko/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/6j+1TfppIeuEEs0NnusxhA==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;MUxzxgLw3LNWFCcDlwOPIQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:Andrew Koltyakov&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/eI6BxRP6rDVH2/p7FxeP+A==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;NZI0VbYeDUwOmS9Qo+InDA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Andrew Koltyakov&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;eI6BxRP6rDVH2/p7FxeP+A==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:Andrew Koltyakov/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/eI6BxRP6rDVH2/p7FxeP+A==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;a2WwN003LhAcCBSTnbiGUg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:Vlad Ivanov&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/xdQshXbQrAf+rjiRk3mf1g==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;ilOwznxKT2CRFl8J50WfUQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Vlad Ivanov&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;xdQshXbQrAf+rjiRk3mf1g==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:/Title:Vlad Ivanov/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==/xdQshXbQrAf+rjiRk3mf1g==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;6EguhKs8Y14zYzMPMrm2Rw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K9W8CUyAoS+6gPFcU1BlXw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:Finance&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/hD+T8nrOC1n70Uj3Sw71CA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;xv1H6c8dWZEaeo7CTuWT9A==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Finance&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;hD+T8nrOC1n70Uj3Sw71CA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:Finance/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/hD+T8nrOC1n70Uj3Sw71CA==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;0vvlGrhEmZXq/LTvWs9DZA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:HR&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/uB5hEoTpjnsigLEjXvVOkA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;6K1CrZaTzQC9FGJsRDpduA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:HR&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;uB5hEoTpjnsigLEjXvVOkA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:HR/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/uB5hEoTpjnsigLEjXvVOkA==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;Qrk27OgK3mYfBVvhIZDJzQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:IT&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/75ZwwmMpmfdjsj7mzK3fJg==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;3maZS0YuMD+jMBHWWmOz2g==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:IT&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;75ZwwmMpmfdjsj7mzK3fJg==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:/Title:IT/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==/75ZwwmMpmfdjsj7mzK3fJg==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;vp/vu6cDCMSKeDdDdRPOBw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;sE2Zv0v8Kx2vKVHXNkR1nw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Accounting&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/fDQFsMF0Dl753FIPH45Dig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;nIkOs4BvcVxqwWQF6GKB8A==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Accounting&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;fDQFsMF0Dl753FIPH45Dig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Accounting/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/fDQFsMF0Dl753FIPH45Dig==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;uzzNucRSrtFqtrR7m3xpvA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Tax&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/aRBwbilogrALx2vLQAsRbw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;7gPCBIsK3BF1fuIWgf8BGg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Tax&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;aRBwbilogrALx2vLQAsRbw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Tax/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/aRBwbilogrALx2vLQAsRbw==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;5jqORG7yc/dSVzPEXVBWgw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Network&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/scw7tqYM5xpA1D6FrqTRTw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;GfPr4iGVRJsTO34ulScWOg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Network&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;scw7tqYM5xpA1D6FrqTRTw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Network/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/scw7tqYM5xpA1D6FrqTRTw==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;Zyx4L5lxzF8/WW/rLX0wBw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Applications&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/k7Ao47xiwnVcXCUq0FtOmw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;u4W2gYpJRJMZmuA8Uzhy9A==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Applications&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;k7Ao47xiwnVcXCUq0FtOmw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Applications/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/k7Ao47xiwnVcXCUq0FtOmw==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;AahwF7s5e+S5OgAPPG8KZQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Support&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/2jM2F7eTVYBN4n9k1sI8/Q==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;7imkzfcqETyCZxSVf9PnLQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Support&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;2jM2F7eTVYBN4n9k1sI8/Q==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Support/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/2jM2F7eTVYBN4n9k1sI8/Q==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;fiiwpRXTWw5JawgUgFCQgg==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Benefits&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/rFs93ZOMEvP9ht8yjwoxKA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;0va2BYe125NlzWvdQryU9A==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Benefits&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;rFs93ZOMEvP9ht8yjwoxKA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Benefits/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/rFs93ZOMEvP9ht8yjwoxKA==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;bZtlcgDc8V7gBjeWSkiEFA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Payroll&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/MvAOINyOv8voOCwa4MFZHw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;UpPrRBM6xkjCVkD1bkSKig==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Title:Payroll&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;MvAOINyOv8voOCwa4MFZHw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:/Title:Payroll/Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==/MvAOINyOv8voOCwa4MFZHw==/UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;VuD3A/RJmSVPe8ZlYi6AEw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Values:System.Collections.Generic.List`1[SPMeta2.Definitions.FieldValue]&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;UxGLUxvkZjbmgGtB0ZeYig==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;/ModelNodes&gt;&lt;/ModelHash&gt;" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="spmeta2.incremental_state.Preparing: Demos Web Demo" Value="&lt;ModelHash xmlns=&quot;http://schemas.datacontract.org/2004/07/SPMeta2.Common&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Hash i:nil=&quot;true&quot;/&gt;&lt;ModelNodes&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath/&gt;&lt;DefinitionFullPathHash/&gt;&lt;DefinitionHash&gt;bTuwPPf3y0Apo1Mv/MSSQA==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;Url:/&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;nV6hlstMd8GlLKaj9ZyUJw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;7WsBPYKjMsKlxGls7RXmpQ==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Contacts;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;adaGF0RuRQkn9LS1U/krbQ==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;K9W8CUyAoS+6gPFcU1BlXw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/Functions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;VzEbGtBRg6gtPBxRmr25Rw==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;ModelNodeHash&gt;&lt;DefinitionFullPath&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionFullPath&gt;&lt;DefinitionFullPathHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionFullPathHash&gt;&lt;DefinitionHash&gt;sE2Zv0v8Kx2vKVHXNkR1nw==&lt;/DefinitionHash&gt;&lt;DefinitionIdentityKey&gt;CustomUrl:Lists/SubFunctions;Url:&lt;/DefinitionIdentityKey&gt;&lt;DefinitionIdentityKeyHash&gt;V4gw0sDVYXNGQkQCyWNupA==&lt;/DefinitionIdentityKeyHash&gt;&lt;/ModelNodeHash&gt;&lt;/ModelNodes&gt;&lt;/ModelHash&gt;" Overwrite="false" />
+      </pnp:PropertyBagEntries>
+      <pnp:Security>
+        <pnp:AdditionalAdministrators>
+          <pnp:User Name="i:0#.f|membership|sergei.snitko@msdev02.onmicrosoft.com" />
+        </pnp:AdditionalAdministrators>
+        <pnp:Permissions />
+      </pnp:Security>
+      <pnp:Navigation AddNewPagesToNavigation="true" CreateFriendlyUrlsForNewPages="true">
+        <pnp:GlobalNavigation NavigationType="Structural">
+          <pnp:StructuralNavigation RemoveExistingNodes="false">
+            <pnp:NavigationNode Title="Home" Url="{site}" />
+          </pnp:StructuralNavigation>
+        </pnp:GlobalNavigation>
+        <pnp:CurrentNavigation NavigationType="StructuralLocal">
+          <pnp:StructuralNavigation RemoveExistingNodes="false">
+            <pnp:NavigationNode Title="Home" Url="{site}" />
+            <pnp:NavigationNode Title="Notebook" Url="{site}/_layouts/15/WopiFrame.aspx?sourcedoc={1e73635d-24ac-4563-a56c-1ccfb363e414}&amp;action=editnew" IsExternal="true" />
+            <pnp:NavigationNode Title="News" Url="{site}/_layouts/15/News.aspx" IsExternal="true" />
+            <pnp:NavigationNode Title="Documents" Url="{site}/Shared Documents/Forms/AllItems.aspx" />
+            <pnp:NavigationNode Title="Pages" Url="{site}/SitePages/Forms/ByAuthor.aspx" />
+            <pnp:NavigationNode Title="Recent" Url="" IsExternal="true">
+              <pnp:NavigationNode Title="Sub Functions" Url="{site}/Lists/SubFunctions/AllItems.aspx" />
+              <pnp:NavigationNode Title="Functions" Url="{site}/Lists/Functions/AllItems.aspx" />
+              <pnp:NavigationNode Title="Contacts" Url="{site}/Lists/Contacts/AllItems.aspx" />
+            </pnp:NavigationNode>
+            <pnp:NavigationNode Title="Site contents" Url="{site}/_layouts/15/viewlsts.aspx" IsExternal="true" />
+          </pnp:StructuralNavigation>
+        </pnp:CurrentNavigation>
+      </pnp:Navigation>
+      <pnp:SiteFields>
+        <Field ID="{e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea}" StaticName="DemosEmployeesCount" DisplayName="# Employees" Title="# Employees" Name="DemosEmployeesCount" Type="Number" Group="Demos M2" CanToggleHidden="TRUE" Hidden="FALSE" Indexed="FALSE" Percentage="FALSE" Decimals="-1" SourceID="{db69dc8f-c395-45bf-b5ee-072e09375666}" Required="FALSE" />
+        <Field ID="{06b7f721-66e7-45a7-8be2-ff64920c5331}" StaticName="DemosFunctionLookup" DisplayName="Function" Title="Function" Name="DemosFunctionLookup" Type="Lookup" Group="Demos M2" CanToggleHidden="TRUE" Hidden="FALSE" Indexed="FALSE" Mult="FALSE" WebId="{siteid}" ShowField="Title" SourceID="{{siteid}}" Required="TRUE" List="{listid:Functions}" />
+        <Field ID="{3d7d0c49-f609-4408-8061-17b08f10bcd3}" StaticName="DemosEmail" DisplayName="Email" Title="Email" Name="DemosEmail" Type="Text" Group="Demos M2" CanToggleHidden="TRUE" Hidden="FALSE" Indexed="FALSE" SourceID="{db69dc8f-c395-45bf-b5ee-072e09375666}" Required="TRUE" />
+        <Field ID="{6C5CC2D0-706C-4BC2-9549-F774A75D5488}" Name="UserExpiration" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="UserExpiration" Group="_Hidden" DisplayName="User Expiration" ReadOnly="TRUE" ReadOnlyEnforced="TRUE" Type="DateTime" FromBaseType="TRUE" />
+        <Field ID="{8a10aaec-481d-494c-b412-3a626851d20c}" StaticName="DemosOwnerLookup" DisplayName="Owner" Title="Owner" Name="DemosOwnerLookup" Type="Lookup" Group="Demos M2" CanToggleHidden="TRUE" Hidden="FALSE" Indexed="FALSE" Mult="FALSE" WebId="{siteid}" ShowField="Title" SourceID="{{siteid}}" Required="FALSE" List="{listid:Contacts}" />
+        <Field ID="{4a8f48f6-6621-4ab1-9bc8-17aba1f2776c}" StaticName="DemosPhoneNumber" DisplayName="Phone Number" Title="Phone Number" Name="DemosPhoneNumber" Type="Text" Group="Demos M2" CanToggleHidden="TRUE" Hidden="FALSE" Indexed="FALSE" SourceID="{db69dc8f-c395-45bf-b5ee-072e09375666}" Required="TRUE" />
+        <Field ID="{D60D65FF-FF42-4044-A684-AC3F7A5E598C}" Name="_TopicHeader" StaticName="_TopicHeader" DisplayName="Topic header" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="_Hidden" Description="" ShowInNewForm="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInViewForms="FALSE" ShowInListSettings="FALSE" AllowDeletion="FALSE" />
+      </pnp:SiteFields>
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01001911B83607CB4B6083D021F81AD894D4" Name="Demos Contact" Description="" Group="Demos M2" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+            <pnp:FieldRef ID="3d7d0c49-f609-4408-8061-17b08f10bcd3" Name="DemosEmail" Required="true" />
+            <pnp:FieldRef ID="4a8f48f6-6621-4ab1-9bc8-17aba1f2776c" Name="DemosPhoneNumber" Required="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100A6805FA0B2054CD58FA5B33768510C9D" Name="Demos Function" Description="" Group="Demos M2" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+            <pnp:FieldRef ID="8a10aaec-481d-494c-b412-3a626851d20c" Name="DemosOwnerLookup" />
+            <pnp:FieldRef ID="e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea" Name="DemosEmployeesCount" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100CA80E4924904441CB3C56F2648D150E7" Name="Demos SubFunction" Description="" Group="Demos M2" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+            <pnp:FieldRef ID="06b7f721-66e7-45a7-8be2-ff64920c5331" Name="DemosFunctionLookup" Required="true" />
+            <pnp:FieldRef ID="8a10aaec-481d-494c-b412-3a626851d20c" Name="DemosOwnerLookup" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Contacts" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Contacts" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" DefaultDisplayFormUrl="{site}/Lists/Contacts/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Contacts/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Contacts/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01001911B83607CB4B6083D021F81AD894D4" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{B4BECFA6-1E89-4175-9820-2F3F2E20DAA9}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/spday_demo02/Lists/Contacts/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="Edit" />
+                <FieldRef Name="ID" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="DemosEmail" />
+                <FieldRef Name="DemosPhoneNumber" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">25</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3d7d0c49-f609-4408-8061-17b08f10bcd3" Name="DemosEmail" DisplayName="Email" />
+            <pnp:FieldRef ID="4a8f48f6-6621-4ab1-9bc8-17aba1f2776c" Name="DemosPhoneNumber" DisplayName="Phone Number" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://9-northeurope1.pushp.svc.ms/notifications?token=w3-cea7fcdf-664f-4d5a-92c2-887392b8a188" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://9-northeurope1.pushp.svc.ms/notifications?token=w3-c08ed473-d1d6-4c1a-9cc7-3d0d10222384" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://9-northeurope1.pushp.svc.ms/notifications?token=w3-ee651434-cdd5-4951-98ad-2aa8f906ef3b" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Documents" Description="" DocumentTemplate="{site}/Shared Documents/Forms/template.dotx" OnQuickLaunch="true" TemplateType="101" Url="Shared Documents" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" DefaultDisplayFormUrl="{site}/Shared Documents/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Shared Documents/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Shared Documents/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=45" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0101" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{5A725836-4B6D-4C56-8064-4442B6BE5888}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/spday_demo02/Shared Documents/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="d307dff3-340f-44a2-9f4b-fbfe1ba07459" Name="_CommentCount" DisplayName="Comment count" />
+            <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Form Templates" Description="This library contains administrator-approved form templates that were activated to this site collection." DocumentTemplate="" TemplateType="101" Url="FormServerTemplates" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/FormServerTemplates/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/FormServerTemplates/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/FormServerTemplates/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=45" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010100F8EF98760CBA4A94994F13BA881038FA" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{9F7C1497-CEB7-44D6-AEE9-DD80CC4F0EB2}" MobileView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/spday_demo02/FormServerTemplates/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{0C5A2A6C-70C0-49F3-893F-DAB231D0D2F0}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Forms" Url="/sites/spday_demo02/FormServerTemplates/Forms/All Forms.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <GroupBy Collapse="FALSE">
+                  <FieldRef Name="FormCategory" />
+                </GroupBy>
+                <OrderBy>
+                  <FieldRef Name="FormName" />
+                </OrderBy>
+                <Where>
+                  <Neq>
+                    <FieldRef Name="ShowInCatalog" />
+                    <Value Type="Boolean">0</Value>
+                  </Neq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="FormName" />
+                <FieldRef Name="FormDescription" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="66b691cf-07a3-4ca6-ac6d-27fa969c8569" Name="FormName" DisplayName="Form Name" />
+            <pnp:FieldRef ID="65572d4d-445a-43f1-9c77-3358222a2c93" Name="FormCategory" DisplayName="Form Category" />
+            <pnp:FieldRef ID="94ad6f7c-09a1-42ca-974f-d24e080160c2" Name="FormVersion" DisplayName="Form Version" />
+            <pnp:FieldRef ID="1a03fa74-8c63-40cc-bd06-73b580bd8744" Name="FormId" DisplayName="Form ID" />
+            <pnp:FieldRef ID="96c27c9d-33f5-4f8e-893e-684014bc7090" Name="FormLocale" DisplayName="Form Locale" />
+            <pnp:FieldRef ID="1fff255c-6c88-4a76-957b-ae24bf07b78c" Name="FormDescription" DisplayName="Form Description" />
+            <pnp:FieldRef ID="4ef69ca4-4179-4d27-9e6c-f9544d45dfdc" Name="ShowInCatalog" DisplayName="Show in Catalog" />
+            <pnp:FieldRef ID="1a03fa74-8c63-40cc-bd06-73b580bd8743" Name="LinkTemplateName" DisplayName="Form Name" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="d307dff3-340f-44a2-9f4b-fbfe1ba07459" Name="_CommentCount" DisplayName="Comment count" />
+            <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Functions" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Functions" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" DefaultDisplayFormUrl="{site}/Lists/Functions/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Functions/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Functions/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100A6805FA0B2054CD58FA5B33768510C9D" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{C0DBB579-8B5A-4BC6-BD0C-D23EBE63A276}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/spday_demo02/Lists/Functions/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="Edit" />
+                <FieldRef Name="ID" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="DemosOwnerLookup" />
+                <FieldRef Name="DemosEmployeesCount" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">25</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="8a10aaec-481d-494c-b412-3a626851d20c" Name="DemosOwnerLookup" DisplayName="Owner" />
+            <pnp:FieldRef ID="e08c3e0e-6a57-4bc6-bca3-4ad95e8d9eea" Name="DemosEmployeesCount" DisplayName="# Employees" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="MicroFeed" Description="MySite MicroFeed Persistent Storage List" DocumentTemplate="" TemplateType="544" Url="Lists/PublishedFeed" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="ea23650b-0340-4708-b465-441a41c37af7" ContentTypesEnabled="true" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/PublishedFeed/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/PublishedFeed/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/PublishedFeed/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IsApplicationList="false" WriteSecurity="2" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{7FE1F0FC-D2AD-484A-8988-06616CA2338C}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/spday_demo02/Lists/PublishedFeed/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/images/generic.png">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created_x0020_Date" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitleNoMenu" />
+                <FieldRef Name="MicroBlogType" />
+                <FieldRef Name="PostAuthor" />
+                <FieldRef Name="DefinitionId" />
+                <FieldRef Name="RootPostID" />
+                <FieldRef Name="RootPostUniqueID" />
+                <FieldRef Name="RootPostOwnerID" />
+                <FieldRef Name="UniqueId" />
+                <FieldRef Name="ReplyCount" />
+                <FieldRef Name="Created" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="ID" />
+                <FieldRef Name="ReferenceID" />
+                <FieldRef Name="Attributes" />
+                <FieldRef Name="Content" />
+                <FieldRef Name="ContentData" />
+                <FieldRef Name="SearchContent" />
+                <FieldRef Name="RefRoot" />
+                <FieldRef Name="RefReply" />
+                <FieldRef Name="PostSource" />
+                <FieldRef Name="PeopleCount" />
+                <FieldRef Name="PeopleList" />
+                <FieldRef Name="MediaLinkType" />
+                <FieldRef Name="MediaLinkDescription" />
+                <FieldRef Name="MediaLinkURI" />
+                <FieldRef Name="MediaLinkUISnippet" />
+                <FieldRef Name="MediaLinkContentURI" />
+                <FieldRef Name="MediaLength" />
+                <FieldRef Name="MediaWidth" />
+                <FieldRef Name="MediaHeight" />
+                <FieldRef Name="MediaActionClickUrl" />
+                <FieldRef Name="MediaActionClickKind" />
+                <FieldRef Name="eMailSubscribers" />
+                <FieldRef Name="eMailUnsubscribed" />
+                <FieldRef Name="LikesCount" />
+                <FieldRef Name="LikedBy" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">100</RowLimit>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Integer" Name="MicroBlogType" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" Indexed="TRUE" DisplayName="MicroBlogType" StaticName="MicroBlogType" ID="{35329af5-04eb-44ee-89ae-9b5e4b5ecd9d}" ColName="int1" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Text" Name="PostAuthor" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" Indexed="FALSE" DisplayName="Post Author" StaticName="PostAuthor" ID="{6e4c2103-dea2-4b81-bc0a-410a7a812a05}" ColName="nvarchar4" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="DefinitionId" Indexed="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="DefinitionId" StaticName="DefinitionId" ID="{de90c424-0414-4d3c-a6d0-a8090fc2f731}" ColName="int2" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="RootPostID" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" Indexed="TRUE" DisplayName="RootPostID" StaticName="RootPostID" ID="{9ce2079a-cf0d-479f-ae35-48229641a003}" ColName="int3" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Text" Name="RootPostOwnerID" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Root Post Owner ID" StaticName="RootPostOwnerID" ID="{d573c999-f181-4015-88fd-72d7c135e1d6}" ColName="nvarchar5" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Text" Name="RootPostUniqueID" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Root Post Unique ID" StaticName="RootPostUniqueID" ID="{8d68c714-9453-45d4-857e-c134308f1047}" ColName="nvarchar6" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="ReplyCount" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="ReplyCount" StaticName="ReplyCount" ID="{5f460546-df7d-489d-99fd-677d26f68e30}" ColName="int4" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Text" Name="ReferenceID" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Reference ID" StaticName="ReferenceID" ID="{5d8af039-7778-4004-b934-c9c348059309}" ColName="nvarchar7" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="Attributes" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Attributes" StaticName="Attributes" ID="{5611398e-c664-46c8-8d34-427ae046cc31}" ColName="int5" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="Content" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Content" StaticName="Content" ID="{37c1e42e-8f43-4767-b51b-901fa7c19f00}" ColName="ntext2" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="ContentData" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="ContentData" StaticName="ContentData" ID="{ec8e7d18-467b-4f6e-9607-e4f015dc63d9}" ColName="ntext3" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="SearchContent" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="SearchContent" StaticName="SearchContent" ID="{fa2e7421-b52a-4fb7-afc2-c348144b4850}" ColName="ntext4" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="RefRoot" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="RefRoot" StaticName="RefRoot" ID="{4709c48f-0bbe-47e6-9b19-deb852cb3ea4}" ColName="ntext5" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="RefReply" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="RefReply" StaticName="RefReply" ID="{fa830350-bc6c-4931-ba2f-b3078fef4554}" ColName="ntext6" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Text" Name="PostSource" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Post Source" StaticName="PostSource" ID="{e24e486f-3717-433c-91fc-edd848c2c483}" ColName="nvarchar8" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="PeopleCount" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="PeopleCount" StaticName="PeopleCount" ID="{a1728d72-f862-40d5-b3a8-4e394faba47a}" ColName="int6" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="PeopleList" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="PeopleList" StaticName="PeopleList" ID="{d20e68a2-693a-470a-8349-a972ab3a7f0d}" ColName="ntext7" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaLinkType" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaLinkType" StaticName="MediaLinkType" ID="{2de40ff2-1313-4ae9-a927-f460493ae86f}" ColName="int7" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Text" Name="MediaLinkDescription" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="Media Link Description" StaticName="MediaLinkDescription" ID="{4c074db2-ce03-406e-a23a-36153af6da2d}" ColName="nvarchar9" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="PostSourceUri" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="PostSourceUri" StaticName="PostSourceUri" ID="{9c2e087c-0aae-49e0-a354-6853f4066acb}" ColName="ntext8" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="URL" Name="MediaLinkURI" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaLinkURI" StaticName="MediaLinkURI" ID="{d69707f1-8cb7-4318-8deb-fea7ed53df41}" ColName="nvarchar10" ColName2="nvarchar11" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="URL" Name="MediaLinkUISnippet" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaLinkUISnippet" StaticName="MediaLinkUISnippet" ID="{e1d22b08-cc0c-45d2-88f6-eb53529065e3}" ColName="nvarchar12" ColName2="nvarchar13" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="URL" Name="MediaLinkContentURI" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaLinkContentURI" StaticName="MediaLinkContentURI" ID="{35479e24-035c-4fa0-9605-da97647aa69e}" ColName="nvarchar14" ColName2="nvarchar15" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaLength" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaLength" StaticName="MediaLength" ID="{39c851ac-bc40-4481-adeb-945f56ac2e1d}" ColName="int8" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaWidth" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaWidth" StaticName="MediaWidth" ID="{234c9611-d3e4-413b-a5b6-cf0fa773ca24}" ColName="int9" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaHeight" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaHeight" StaticName="MediaHeight" ID="{41680d11-1cb0-4c7b-bc3e-85477635f116}" ColName="int10" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaPreviewWidth" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaPreviewWidth" StaticName="MediaPreviewWidth" ID="{bcf8a38f-b56b-4aee-a2d8-e85eff78fdff}" ColName="int11" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaPreviewHeight" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaPreviewHeight" StaticName="MediaPreviewHeight" ID="{6804f2b3-ba6b-4147-81d0-d025b76a82c4}" ColName="int12" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaActionWidth" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaActionWidth" StaticName="MediaActionWidth" ID="{79f148db-dcf4-4728-8744-3aa9a3669a12}" ColName="int13" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaActionHeight" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaActionHeight" StaticName="MediaActionHeight" ID="{b8448c28-0729-4d4f-9f38-8299291df5d3}" ColName="int14" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="URL" Name="MediaActionClickUrl" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaActionClickUrl" StaticName="MediaActionClickUrl" ID="{84a29bc8-2234-42af-9961-e3cf1d3e11b4}" ColName="nvarchar16" ColName2="nvarchar17" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Integer" Name="MediaActionClickKind" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="MediaActionClickKind" StaticName="MediaActionClickKind" ID="{53abf914-9726-4da7-b43f-7e8fb3568071}" ColName="int15" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="eMailSubscribers" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" StaticName="eMailSubscribers" DisplayName="eMailSubscribers" ID="{8dc7f8e0-41ac-4c89-a6f5-d33ffa058ef5}" ColName="ntext9" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="eMailUnsubscribed" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" StaticName="eMailUnsubscribed" DisplayName="eMailUnsubscribed" ID="{0a27b050-40cf-4dc4-8eab-7e85936cfed4}" ColName="ntext10" SourceID="{{listid:MicroFeed}}" />
+            <Field Type="Note" Name="RemoteLocation" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" StaticName="RemoteLocation" DisplayName="RemoteLocation" ID="{51083506-6bfb-4a54-be38-55816210c7aa}" ColName="ntext11" SourceID="{{listid:MicroFeed}}" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="790722e8-f13c-4f84-90b2-36161bfe7873" Name="j33b1bc20532487296f1bbbdead35a56" Hidden="true" DisplayName="HashTags_0" />
+            <pnp:FieldRef ID="6e4d832b-f610-41a8-b3e0-239608efda41" Name="LikesCount" DisplayName="Number of Likes" />
+            <pnp:FieldRef ID="2cdcd5eb-846d-4f4d-9aaf-73e8e73c7312" Name="LikedBy" Hidden="true" DisplayName="Liked By" />
+            <pnp:FieldRef ID="333b1bc2-0532-4872-96f1-bbbdead35a56" Name="HashTags" DisplayName="HashTags" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Site Assets" Description="Use this library to store files which are included on pages within this site, such as images on Wiki pages." DocumentTemplate="{site}/SiteAssets/Forms/template.doc" TemplateType="101" Url="SiteAssets" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" DefaultDisplayFormUrl="{site}/SiteAssets/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/SiteAssets/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/SiteAssets/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=45" IsApplicationList="true" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0101" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{F3D184ED-BEE1-480C-A3D5-44776D6E3044}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/spday_demo02/SiteAssets/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="d307dff3-340f-44a2-9f4b-fbfe1ba07459" Name="_CommentCount" DisplayName="Comment count" />
+            <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Site Pages" Description="" DocumentTemplate="" TemplateType="119" Url="SitePages" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-c796-4402-9f2f-0eb9a6e71b18" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/SitePages/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/SitePages/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/SitePages/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itwp.png?rev=45" IsApplicationList="true" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010108" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01010901" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0101009D1CB255DA76424F860D91F20E6C4118" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0101009D1CB255DA76424F860D91F20E6C4118002A50BFCFB7614729B56886FADA02339B" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{0BB749F2-5684-47FF-A97E-7DA33B6FACD0}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="By Author" Url="/sites/spday_demo02/SitePages/Forms/ByAuthor.aspx" Level="1" BaseViewID="4" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <GroupBy Collapse="FALSE">
+                  <FieldRef Name="Author" />
+                </GroupBy>
+                <OrderBy>
+                  <FieldRef Name="Modified" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Created" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{D89C6BB9-382A-4155-BDD6-CDD8E20F57F8}" Type="HTML" DisplayName="All Pages" Url="/sites/spday_demo02/SitePages/Forms/AllPages.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Modified" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Created" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{7655FAAF-1BF9-4B95-9DC8-4A07DBE97832}" Type="HTML" DisplayName="By Editor" Url="/sites/spday_demo02/SitePages/Forms/ByEditor.aspx" Level="1" BaseViewID="5" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <GroupBy Collapse="FALSE">
+                  <FieldRef Name="Editor" />
+                </GroupBy>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Created" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{EFFAC1E1-0E42-41E5-81D0-E0CEE655A51D}" Type="HTML" DisplayName="Created By Me" Url="/sites/spday_demo02/SitePages/Forms/CreatedByMe.aspx" Level="1" BaseViewID="3" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="Author" />
+                    <Value Type="Integer">
+                      <UserID />
+                    </Value>
+                  </Eq>
+                </Where>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Created" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{EABBA58F-8CDE-4CD0-A720-D1472BEEA06B}" Type="HTML" DisplayName="Recent Changes" Url="/sites/spday_demo02/SitePages/Forms/RecentChanges.aspx" Level="1" BaseViewID="2" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Modified" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Created" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="c33527b4-d920-4587-b791-45024d00068a" Name="WikiField" DisplayName="Wiki Content" />
+            <pnp:FieldRef ID="4966388e-6e12-4bc6-8990-5b5b66153eae" Name="CanvasContent1" DisplayName="Authoring Canvas Content" />
+            <pnp:FieldRef ID="5baf6db5-9d25-4738-b15e-db5789298e82" Name="BannerImageUrl" DisplayName="Banner Image URL" />
+            <pnp:FieldRef ID="3f155110-a6a2-4d70-926c-94648101f0e8" Name="Description" DisplayName="Description" />
+            <pnp:FieldRef ID="f5ad16a2-85be-46b2-b5f0-2bb8b4a5074a" Name="PromotedState" DisplayName="Promoted State" />
+            <pnp:FieldRef ID="c84f8697-331e-457d-884a-c4fb8f30ea74" Name="FirstPublishedDate" DisplayName="First Published Date" />
+            <pnp:FieldRef ID="261075db-0525-4fb8-a6ea-772014186599" Name="LayoutWebpartsContent" DisplayName="Page Layout Content" />
+            <pnp:FieldRef ID="1a7348e7-1bb7-4a47-9790-088e7cb20b58" Name="_AuthorByline" DisplayName="Author Byline" />
+            <pnp:FieldRef ID="d60d65ff-ff42-4044-a684-ac3f7a5e598c" Name="_TopicHeader" DisplayName="Topic header" />
+            <pnp:FieldRef ID="0e7b982f-698a-4d0c-aacb-f16906f66d30" Name="_OriginalSourceUrl" DisplayName="Original Source Url" />
+            <pnp:FieldRef ID="36193413-dd5c-4096-8c1e-1b40098b9ba3" Name="_OriginalSourceSiteId" DisplayName="Original Source Site ID" />
+            <pnp:FieldRef ID="3477a5bc-c605-4b2e-a7c1-8db8f13c017e" Name="_OriginalSourceWebId" DisplayName="Original Source Web ID" />
+            <pnp:FieldRef ID="139da674-dbf6-439f-98e0-4eb05fa9a669" Name="_OriginalSourceListId" DisplayName="Original Source List ID" />
+            <pnp:FieldRef ID="91e86a43-75f2-426f-80da-35edfb47d55d" Name="_OriginalSourceItemId" DisplayName="Original Source Item ID" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Style Library" Description="Use the style library to store style sheets, such as CSS or XSL files. The style sheets in this gallery can be used by this site or any of its subsites." DocumentTemplate="" TemplateType="101" Url="Style Library" ForceCheckout="true" EnableVersioning="true" EnableMinorVersions="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="1" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" NoCrawl="true" DefaultDisplayFormUrl="{site}/Style Library/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Style Library/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Style Library/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=45" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0101" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{B53ED678-B5D8-47F6-9F5D-610C4983DABF}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/spday_demo02/Style Library/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="CheckoutUser" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="d307dff3-340f-44a2-9f4b-fbfe1ba07459" Name="_CommentCount" DisplayName="Comment count" />
+            <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Sub Functions" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/SubFunctions" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" DefaultDisplayFormUrl="{site}/Lists/SubFunctions/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/SubFunctions/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/SubFunctions/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100CA80E4924904441CB3C56F2648D150E7" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{3D77C21F-DDCB-4E7F-9346-743D169A175C}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/spday_demo02/Lists/SubFunctions/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="Edit" />
+                <FieldRef Name="ID" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="DemosOwnerLookup" />
+                <FieldRef Name="DemosFunctionLookup" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">25</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="06b7f721-66e7-45a7-8be2-ff64920c5331" Name="DemosFunctionLookup" Required="true" DisplayName="Function" />
+            <pnp:FieldRef ID="8a10aaec-481d-494c-b412-3a626851d20c" Name="DemosOwnerLookup" DisplayName="Owner" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://9-northeurope1.pushp.svc.ms/notifications?token=w3-3eedf520-166e-4f4a-94c5-96b5035cb2ed" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:CustomActions>
+        <pnp:SiteCustomActions>
+          <pnp:CustomAction Name="Demos.Portal.M2Artefacts" Location="ScriptLink" Sequence="100" Rights="" ScriptSrc="~sitecollection/_catalogs/masterpage/Demos/M2.Demo/spmeta2.artefacts.js" RegistrationType="None" ClientSideComponentId="00000000-0000-0000-0000-000000000000" ClientSideComponentProperties="" />
+        </pnp:SiteCustomActions>
+      </pnp:CustomActions>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

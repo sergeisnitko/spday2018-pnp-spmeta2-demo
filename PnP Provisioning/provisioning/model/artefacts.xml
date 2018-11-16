@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema https://raw.githubusercontent.com/OfficeDev/PnP-Provisioning-Schema/master/OfficeDevPnP.ProvisioningSchema/ProvisioningSchema-2018-05.xsd">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.26.1805.1, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TECHNICOLOR-COST-CALCULATOR-TEMPLATE">
+    <pnp:ProvisioningTemplate ID="TECHNICOLOR-COST-CALCULATOR-TEMPLATE" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="DAPAir" TemplateType="120" Url="Lists/DAPAir">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{697D61DF-6C3B-4571-A7F4-64811970706B}" DefaultView="TRUE" Type="GRID" DisplayName="All Items" Url="Allitemsg.aspx" >
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="INCOTERM" />
+                <FieldRef Name="ORIGIN_x0020_HANDLING__KG" />
+                <FieldRef Name="ORIGIN_x0020_DOCUMENTATION__SHP" />
+                <FieldRef Name="OTHER_x0020_ORIGIN__KG" />
+                <FieldRef Name="AF__KG" />
+                <FieldRef Name="FSC__KG" />
+                <FieldRef Name="SECURITY__KG" />
+                <FieldRef Name="SCREENING__KG" />
+                <FieldRef Name="DESTINATION_x0020_HANDLING__KG" />
+                <FieldRef Name="DELIVERY__KG" />
+                <FieldRef Name="DESTINATION_x0020_DOCUMENTATION_" />
+                <FieldRef Name="ADMINISTRATION_x0020_FEE__SHP" />
+                <FieldRef Name="OTHER_x0020_DESTINATION__KG" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Text" DisplayName="INCOTERM" Required="FALSE" ID="{7791cb4d-adbc-4f54-8abf-0699ecc54d19}" SourceID="{{listid:DAPAir}}" StaticName="INCOTERM" Name="INCOTERM" ColName="nvarchar4" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="ORIGIN HANDLING__KG" Required="FALSE" ID="{4b022174-72f8-414b-adca-a0d254a7ea8b}" SourceID="{{listid:DAPAir}}" StaticName="ORIGIN_x0020_HANDLING__KG" Name="ORIGIN_x0020_HANDLING__KG" ColName="nvarchar5" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="ORIGIN DOCUMENTATION__SHP" Required="FALSE" ID="{2553f5eb-0763-42c1-a431-1d597234f1aa}" SourceID="{{listid:DAPAir}}" StaticName="ORIGIN_x0020_DOCUMENTATION__SHP" Name="ORIGIN_x0020_DOCUMENTATION__SHP" ColName="nvarchar6" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="OTHER ORIGIN__KG" Required="FALSE" ID="{626dab54-e2d0-4e8d-98aa-b32dde8bfe25}" SourceID="{{listid:DAPAir}}" StaticName="OTHER_x0020_ORIGIN__KG" Name="OTHER_x0020_ORIGIN__KG" ColName="nvarchar7" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="AF__KG" Required="FALSE" ID="{3a9cbadb-6e03-4af2-917e-04725604dd23}" SourceID="{{listid:DAPAir}}" StaticName="AF__KG" Name="AF__KG" ColName="nvarchar8" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="FSC__KG" Required="FALSE" ID="{b81830ab-dc8d-4a9f-a839-38ae41121373}" SourceID="{{listid:DAPAir}}" StaticName="FSC__KG" Name="FSC__KG" ColName="nvarchar9" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="SECURITY__KG" Required="FALSE" ID="{e223e588-aba8-49d6-9bf2-c75492b2c724}" SourceID="{{listid:DAPAir}}" StaticName="SECURITY__KG" Name="SECURITY__KG" ColName="nvarchar10" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="SCREENING__KG" Required="FALSE" ID="{6bb4c601-bf8b-4c7c-8122-c4e734b24056}" SourceID="{{listid:DAPAir}}" StaticName="SCREENING__KG" Name="SCREENING__KG" ColName="nvarchar11" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="DESTINATION HANDLING__KG" Required="FALSE" ID="{d4dab72c-2616-46ab-90af-7e763237e700}" SourceID="{{listid:DAPAir}}" StaticName="DESTINATION_x0020_HANDLING__KG" Name="DESTINATION_x0020_HANDLING__KG" ColName="nvarchar12" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="DELIVERY__KG" Required="FALSE" ID="{95cf0980-8015-490d-a5d6-56b1ce08726e}" SourceID="{{listid:DAPAir}}" StaticName="DELIVERY__KG" Name="DELIVERY__KG" ColName="nvarchar13" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="DESTINATION DOCUMENTATION__SHP" Required="FALSE" ID="{de3ff243-8e42-4011-9822-6c79dbd5010b}" SourceID="{{listid:DAPAir}}" StaticName="DESTINATION_x0020_DOCUMENTATION_" Name="DESTINATION_x0020_DOCUMENTATION_" ColName="nvarchar14" RowOrdinal="0" Version="1" />
+            <Field Type="Text" DisplayName="ADMINISTRATION FEE__SHP" Required="FALSE" ID="{d263c342-5cee-45f2-a2ef-c59c1157ef5e}" SourceID="{{listid:DAPAir}}" StaticName="ADMINISTRATION_x0020_FEE__SHP" Name="ADMINISTRATION_x0020_FEE__SHP" ColName="nvarchar15" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="OTHER DESTINATION__KG" Required="FALSE" ID="{feef7610-cc68-4f72-9eb8-aa20360f06ea}" SourceID="{{listid:DAPAir}}" StaticName="OTHER_x0020_DESTINATION__KG" Name="OTHER_x0020_DESTINATION__KG" ColName="nvarchar16" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:DataRows KeyColumn="ID" UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName='Title'>FOXCONN</pnp:DataValue>
+              <pnp:DataValue FieldName='INCOTERM'>DAP Port</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_HANDLING__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_DOCUMENTATION__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_ORIGIN__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='AF__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='FSC__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SECURITY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SCREENING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_HANDLING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DELIVERY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_DOCUMENTATION_'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ADMINISTRATION_x0020_FEE__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_DESTINATION__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ID'>1</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName='Title'>MITRASTAR</pnp:DataValue>
+              <pnp:DataValue FieldName='INCOTERM'>DAP Port</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_HANDLING__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_DOCUMENTATION__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_ORIGIN__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='AF__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='FSC__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SECURITY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SCREENING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_HANDLING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DELIVERY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_DOCUMENTATION_'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ADMINISTRATION_x0020_FEE__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_DESTINATION__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ID'>2</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName='Title'>FOXCONN</pnp:DataValue>
+              <pnp:DataValue FieldName='INCOTERM'>DAP Warehouse</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_HANDLING__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_DOCUMENTATION__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_ORIGIN__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='AF__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='FSC__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SECURITY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SCREENING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_HANDLING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DELIVERY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_DOCUMENTATION_'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ADMINISTRATION_x0020_FEE__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_DESTINATION__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ID'>3</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName='Title'>MITRASTAR</pnp:DataValue>
+              <pnp:DataValue FieldName='INCOTERM'>DAP Warehouse</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_HANDLING__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ORIGIN_x0020_DOCUMENTATION__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_ORIGIN__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='AF__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='FSC__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SECURITY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='SCREENING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_HANDLING__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DELIVERY__KG'>YES</pnp:DataValue>
+              <pnp:DataValue FieldName='DESTINATION_x0020_DOCUMENTATION_'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ADMINISTRATION_x0020_FEE__SHP'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='OTHER_x0020_DESTINATION__KG'>NO</pnp:DataValue>
+              <pnp:DataValue FieldName='ID'>4</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="DAPSea" TemplateType="120" Url="Lists/DAPSea">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{9738A1EF-1077-4CC3-83FA-4D66CA2375EE}" DefaultView="TRUE" Type="GRID" DisplayName="All Items" Url="Allitemsg.aspx">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="INCOTERM" />
+                <FieldRef Name="Oth_CNR" />
+                <FieldRef Name="Ams_CNR" />
+                <FieldRef Name="Edata_CNR" />
+                <FieldRef Name="Bl_SHP" />
+                <FieldRef Name="Vgm_CNR" />
+                <FieldRef Name="Seal_CNR" />
+                <FieldRef Name="OriginManagement_CNR" />
+                <FieldRef Name="SpecialAtOrigin_CNR" />
+                <FieldRef Name="PortToPort_CNR" />
+                <FieldRef Name="Baf_CNR" />
+                <FieldRef Name="Lsf_CNR" />
+                <FieldRef Name="InlandToDestination_CNR" />
+                <FieldRef Name="Dth_CNR" />
+                <FieldRef Name="Unstuffing_CNR" />
+                <FieldRef Name="SpecialAtDestination_CNR" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Text" DisplayName="INCOTERM" Required="FALSE" ID="{8baa94ec-5657-4756-ae6e-824bfd2681b6}" SourceID="{{listid:DAPSea}}" StaticName="INCOTERM" Name="INCOTERM" ColName="nvarchar4" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Oth_CNR" Required="FALSE" ID="{ff610278-7560-47b0-9a3a-5ca91d95e205}" SourceID="{{listid:DAPSea}}" StaticName="Oth_CNR" Name="Oth_CNR" ColName="nvarchar5" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Ams_CNR" Required="FALSE" ID="{e2609a92-ee6d-4689-b15d-e62464827d31}" SourceID="{{listid:DAPSea}}" StaticName="Ams_CNR" Name="Ams_CNR" ColName="nvarchar6" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Edata_CNR" Required="FALSE" ID="{08fd3d2b-3d7e-468c-ac27-4694110d9df2}" SourceID="{{listid:DAPSea}}" StaticName="Edata_CNR" Name="Edata_CNR" ColName="nvarchar7" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Bl_SHP" Required="FALSE" ID="{51c5d8ce-aeba-4b29-98c2-606f3f5eba21}" SourceID="{{listid:DAPSea}}" StaticName="Bl_SHP" Name="Bl_SHP" ColName="nvarchar8" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Vgm_CNR" Required="FALSE" ID="{9f0750ba-e1b2-4179-bcf4-47cea8af35f2}" SourceID="{{listid:DAPSea}}" StaticName="Vgm_CNR" Name="Vgm_CNR" ColName="nvarchar9" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Seal_CNR" Required="FALSE" ID="{54c69331-f5aa-4673-8612-5cf010fb8ee8}" SourceID="{{listid:DAPSea}}" StaticName="Seal_CNR" Name="Seal_CNR" ColName="nvarchar10" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="OriginManagement_CNR" Required="FALSE" ID="{65a03387-e779-41bd-9077-4ba214c79f4c}" SourceID="{{listid:DAPSea}}" StaticName="OriginManagement_CNR" Name="OriginManagement_CNR" ColName="nvarchar11" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="SpecialAtOrigin_CNR" Required="FALSE" ID="{c2067566-40f8-4e93-9c32-b211c6d29429}" SourceID="{{listid:DAPSea}}" StaticName="SpecialAtOrigin_CNR" Name="SpecialAtOrigin_CNR" ColName="nvarchar12" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="PortToPort_CNR" Required="FALSE" ID="{6d376c8f-c0c9-4d1b-844a-9f96c690640d}" SourceID="{{listid:DAPSea}}" StaticName="PortToPort_CNR" Name="PortToPort_CNR" ColName="nvarchar13" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Baf_CNR" Required="FALSE" ID="{907e318c-a147-4f30-842b-ef83ccc1f08f}" SourceID="{{listid:DAPSea}}" StaticName="Baf_CNR" Name="Baf_CNR" ColName="nvarchar14" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Lsf_CNR" Required="FALSE" ID="{2b253fa9-540d-431e-b5f8-787662512a01}" SourceID="{{listid:DAPSea}}" StaticName="Lsf_CNR" Name="Lsf_CNR" ColName="nvarchar15" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="InlandToDestination_CNR" Required="FALSE" ID="{57497ff8-a3a3-4a6d-af4c-43e332a7edad}" SourceID="{{listid:DAPSea}}" StaticName="InlandToDestination_CNR" Name="InlandToDestination_CNR" ColName="nvarchar16" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Dth_CNR" Required="FALSE" ID="{633bc85d-435c-4b78-9159-d1e679c3365d}" SourceID="{{listid:DAPSea}}" StaticName="Dth_CNR" Name="Dth_CNR" ColName="nvarchar17" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Unstuffing_CNR" Required="FALSE" ID="{e372ec0f-026a-488e-b172-1a36a0703a95}" SourceID="{{listid:DAPSea}}" StaticName="Unstuffing_CNR" Name="Unstuffing_CNR" ColName="nvarchar18" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="SpecialAtDestination_CNR" Required="FALSE" ID="{87c238e0-8e9c-4f08-ae37-c947903de883}" SourceID="{{listid:DAPSea}}" StaticName="SpecialAtDestination_CNR" Name="SpecialAtDestination_CNR" ColName="nvarchar19" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="RFPAir" TemplateType="120" Url="Lists/RFPAir">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{513DCA87-4A86-4D6D-B4F2-C1BC3794166D}" DefaultView="TRUE" Type="GRID" DisplayName="All Items" Url="Allitemsg.aspx" >
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="RFP_x0020_ITEM_x0020_ID" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="ORIGIN_x0020_AIRPORT" />
+                <FieldRef Name="DEST_x0020_AIRPORT" />
+                <FieldRef Name="FINAL_x0020_DESITNATION" />
+                <FieldRef Name="ORIGIN_x0020_HANDLING__KG" />
+                <FieldRef Name="ORIGIN_x0020_DOCUMENTATION__SHP" />
+                <FieldRef Name="OTHER_x0020_ORIGIN__KG" />
+                <FieldRef Name="AF__KG" />
+                <FieldRef Name="FSC__KG" />
+                <FieldRef Name="SECURITY__KG" />
+                <FieldRef Name="SCREENING__KG" />
+                <FieldRef Name="DESTINATION_x0020_HANDLING__KG" />
+                <FieldRef Name="DELIVERY__KG" />
+                <FieldRef Name="DESTINATION_x0020_DOCUMENTATION_" />
+                <FieldRef Name="ADMINISTRATION_x0020_FEE__SHP" />
+                <FieldRef Name="OTHER_x0020_DESTINATION__KG" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Number" DisplayName="RFP ITEM ID" Required="FALSE" Percentage="FALSE" ID="{3e54e428-f734-43dd-8175-d42d53836c8a}" SourceID="{{listid:RFPAir}}" StaticName="RFP_x0020_ITEM_x0020_ID" Name="RFP_x0020_ITEM_x0020_ID" ColName="float1" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="ORIGIN AIRPORT" Required="FALSE" ID="{0c25a8a4-151f-479b-85f9-bb14fe17a40f}" SourceID="{{listid:RFPAir}}" StaticName="ORIGIN_x0020_AIRPORT" Name="ORIGIN_x0020_AIRPORT" ColName="nvarchar4" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="DEST AIRPORT" Required="FALSE" ID="{51ca09ec-5507-4204-941c-6a5c425370bc}" SourceID="{{listid:RFPAir}}" StaticName="DEST_x0020_AIRPORT" Name="DEST_x0020_AIRPORT" ColName="nvarchar5" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="FINAL DESITNATION" Required="FALSE" ID="{fac91930-5213-4b0b-b74b-1a58d3a0c657}" SourceID="{{listid:RFPAir}}" StaticName="FINAL_x0020_DESITNATION" Name="FINAL_x0020_DESITNATION" ColName="nvarchar6" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="ORIGIN HANDLING__KG" Required="FALSE" Percentage="FALSE" ID="{d8afa949-e04a-44ed-b078-2719b41d9ca6}" SourceID="{{listid:RFPAir}}" StaticName="ORIGIN_x0020_HANDLING__KG" Name="ORIGIN_x0020_HANDLING__KG" ColName="float2" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="ORIGIN DOCUMENTATION__SHP" Required="FALSE" Percentage="FALSE" ID="{1ab314cb-6943-4e81-bf2c-e8849d6990ea}" SourceID="{{listid:RFPAir}}" StaticName="ORIGIN_x0020_DOCUMENTATION__SHP" Name="ORIGIN_x0020_DOCUMENTATION__SHP" ColName="float3" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="OTHER ORIGIN__KG" Required="FALSE" Percentage="FALSE" ID="{66a33528-218f-4b0d-9de1-39a942fca7cb}" SourceID="{{listid:RFPAir}}" StaticName="OTHER_x0020_ORIGIN__KG" Name="OTHER_x0020_ORIGIN__KG" ColName="float4" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="AF__KG" Required="FALSE" Percentage="FALSE" ID="{c192746e-6ebf-42fb-82bc-501e93b39b90}" SourceID="{{listid:RFPAir}}" StaticName="AF__KG" Name="AF__KG" ColName="float5" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="FSC__KG" Required="FALSE" Percentage="FALSE" ID="{d81ba98e-2c57-4c0b-bdbd-f52f3e8d7612}" SourceID="{{listid:RFPAir}}" StaticName="FSC__KG" Name="FSC__KG" ColName="float6" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="SECURITY__KG" Required="FALSE" Percentage="FALSE" ID="{8b62f3e2-86a7-444b-b14b-54650eaf10d0}" SourceID="{{listid:RFPAir}}" StaticName="SECURITY__KG" Name="SECURITY__KG" ColName="float7" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="SCREENING__KG" Required="FALSE" Percentage="FALSE" ID="{d58d6671-4fab-4418-87db-98f6ad27c390}" SourceID="{{listid:RFPAir}}" StaticName="SCREENING__KG" Name="SCREENING__KG" ColName="float8" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="DESTINATION HANDLING__KG" Required="FALSE" Percentage="FALSE" ID="{9fbb1cce-aa01-4c21-8fb3-5d3174203605}" SourceID="{{listid:RFPAir}}" StaticName="DESTINATION_x0020_HANDLING__KG" Name="DESTINATION_x0020_HANDLING__KG" ColName="float9" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="DELIVERY__KG" Required="FALSE" Percentage="FALSE" ID="{94cc4a32-99ce-44f1-9a38-b05d255f7f1a}" SourceID="{{listid:RFPAir}}" StaticName="DELIVERY__KG" Name="DELIVERY__KG" ColName="float10" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="DESTINATION DOCUMENTATION__SHP" Required="FALSE" Percentage="FALSE" ID="{d6f378ba-6e3f-47ea-9dc8-776e59cb3a23}" SourceID="{{listid:RFPAir}}" StaticName="DESTINATION_x0020_DOCUMENTATION_" Name="DESTINATION_x0020_DOCUMENTATION_" ColName="float11" RowOrdinal="0" Version="1" />
+            <Field Type="Number" DisplayName="ADMINISTRATION FEE__SHP" Required="FALSE" Percentage="FALSE" ID="{e807730a-1d0f-47bc-8e10-b3485c5e8e80}" SourceID="{{listid:RFPAir}}" StaticName="ADMINISTRATION_x0020_FEE__SHP" Name="ADMINISTRATION_x0020_FEE__SHP" ColName="float12" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="OTHER DESTINATION__KG" Required="FALSE" Percentage="FALSE" ID="{1d8d017e-6014-4e7e-8e0e-ab6a88ad5b31}" SourceID="{{listid:RFPAir}}" StaticName="OTHER_x0020_DESTINATION__KG" Name="OTHER_x0020_DESTINATION__KG" ColName="float13" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="RFPOcean" TemplateType="120" Url="Lists/RFPOcean">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{57FAD955-82B0-48A2-B576-52A311F3DDB2}" DefaultView="TRUE" Type="GRID" DisplayName="All Items" Url="Allitemsg.aspx" >
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="RFP_x0020_ITEM_x0020_ID" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="PORT_x0020_OF_x0020_ORIGIN" />
+                <FieldRef Name="PORT_x0020_OF_x0020_DEST" />
+                <FieldRef Name="FINAL_x0020_DOOR_x0020_DEST" />
+                <FieldRef Name="Oth_CNR" />
+                <FieldRef Name="Ams_CNR" />
+                <FieldRef Name="Edata_CNR" />
+                <FieldRef Name="Bl_SHP" />
+                <FieldRef Name="Vgm_CNR" />
+                <FieldRef Name="Seal_CNR" />
+                <FieldRef Name="OriginManagement_CNR" />
+                <FieldRef Name="SpecialAtOrigin_CNR" />
+                <FieldRef Name="PortToPort_CNR" />
+                <FieldRef Name="Baf_CNR" />
+                <FieldRef Name="Lsf_CNR" />
+                <FieldRef Name="InlandToDestination_CNR" />
+                <FieldRef Name="Dth_CNR" />
+                <FieldRef Name="Unstuffing_CNR" />
+                <FieldRef Name="SpecialAtDestination_CNR" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Number" DisplayName="RFP ITEM ID" Required="FALSE" Percentage="FALSE" ID="{cac67dd1-2b7c-45d9-8d67-d80f8790848b}" SourceID="{{listid:RFPOcean}}" StaticName="RFP_x0020_ITEM_x0020_ID" Name="RFP_x0020_ITEM_x0020_ID" ColName="float1" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="PORT OF ORIGIN" Required="FALSE" ID="{eba521c7-5ede-4f10-a14f-66aca00b84ca}" SourceID="{{listid:RFPOcean}}" StaticName="PORT_x0020_OF_x0020_ORIGIN" Name="PORT_x0020_OF_x0020_ORIGIN" ColName="nvarchar4" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="PORT OF DEST" Required="FALSE" ID="{2db2795d-ef05-4a6d-a7e1-218022885946}" SourceID="{{listid:RFPOcean}}" StaticName="PORT_x0020_OF_x0020_DEST" Name="PORT_x0020_OF_x0020_DEST" ColName="nvarchar5" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="FINAL DOOR DEST" Required="FALSE" ID="{e12dbef6-db19-4fcf-8d7c-af73be8a01e2}" SourceID="{{listid:RFPOcean}}" StaticName="FINAL_x0020_DOOR_x0020_DEST" Name="FINAL_x0020_DOOR_x0020_DEST" ColName="nvarchar6" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Oth_CNR" Required="FALSE" Percentage="FALSE" ID="{ab237021-fee9-41bd-949e-6a07be1127b7}" SourceID="{{listid:RFPOcean}}" StaticName="Oth_CNR" Name="Oth_CNR" ColName="float2" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Ams_CNR" Required="FALSE" Percentage="FALSE" ID="{9cf346dd-9cc8-4fba-a396-493ddc2675ed}" SourceID="{{listid:RFPOcean}}" StaticName="Ams_CNR" Name="Ams_CNR" ColName="float3" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Edata_CNR" Required="FALSE" Percentage="FALSE" ID="{eef3c955-8d2b-4098-99c5-0cb34c8a787b}" SourceID="{{listid:RFPOcean}}" StaticName="Edata_CNR" Name="Edata_CNR" ColName="float4" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Bl_SHP" Required="FALSE" Percentage="FALSE" ID="{8c98161f-9117-4222-b7a1-5921a839fa01}" SourceID="{{listid:RFPOcean}}" StaticName="Bl_SHP" Name="Bl_SHP" ColName="float5" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Vgm_CNR" Required="FALSE" Percentage="FALSE" ID="{78e8e905-ca62-4d78-b5d1-580c7d5a2e52}" SourceID="{{listid:RFPOcean}}" StaticName="Vgm_CNR" Name="Vgm_CNR" ColName="float6" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Seal_CNR" Required="FALSE" Percentage="FALSE" ID="{4a70a4b6-33fb-4cb2-817e-59982a39d825}" SourceID="{{listid:RFPOcean}}" StaticName="Seal_CNR" Name="Seal_CNR" ColName="float7" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="OriginManagement_CNR" Required="FALSE" Percentage="FALSE" ID="{4f3eb1ae-9103-49c1-9b9c-4d3e0158866a}" SourceID="{{listid:RFPOcean}}" StaticName="OriginManagement_CNR" Name="OriginManagement_CNR" ColName="float8" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="SpecialAtOrigin_CNR" Required="FALSE" Percentage="FALSE" ID="{f07c3634-db03-46ae-a6cc-3cf60d6a3b49}" SourceID="{{listid:RFPOcean}}" StaticName="SpecialAtOrigin_CNR" Name="SpecialAtOrigin_CNR" ColName="float9" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="PortToPort_CNR" Required="FALSE" Percentage="FALSE" ID="{7fe3e210-d12d-4613-8520-a1f1b4f62058}" SourceID="{{listid:RFPOcean}}" StaticName="PortToPort_CNR" Name="PortToPort_CNR" ColName="float10" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Baf_CNR" Required="FALSE" Percentage="FALSE" ID="{a6e0917d-8901-4d64-8287-0f0e07bcfaa6}" SourceID="{{listid:RFPOcean}}" StaticName="Baf_CNR" Name="Baf_CNR" ColName="float11" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Lsf_CNR" Required="FALSE" Percentage="FALSE" ID="{e02b04ab-ebc5-4f88-ab06-67c639cc6168}" SourceID="{{listid:RFPOcean}}" StaticName="Lsf_CNR" Name="Lsf_CNR" ColName="float12" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="InlandToDestination_CNR" Required="FALSE" Percentage="FALSE" ID="{d3d0351d-ce2f-4035-ae91-2baddeb2f2f4}" SourceID="{{listid:RFPOcean}}" StaticName="InlandToDestination_CNR" Name="InlandToDestination_CNR" ColName="float13" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Dth_CNR" Required="FALSE" Percentage="FALSE" ID="{8c9b0e77-d109-4cc1-976a-ffa69a084bf8}" SourceID="{{listid:RFPOcean}}" StaticName="Dth_CNR" Name="Dth_CNR" ColName="float14" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="Unstuffing_CNR" Required="FALSE" Percentage="FALSE" ID="{3d39105c-becd-4e73-bd47-7c0a15b1585e}" SourceID="{{listid:RFPOcean}}" StaticName="Unstuffing_CNR" Name="Unstuffing_CNR" ColName="float15" RowOrdinal="0" />
+            <Field Type="Number" DisplayName="SpecialAtDestination_CNR" Required="FALSE" Percentage="FALSE" ID="{feae1bbe-f41b-4240-a903-848c59be89cc}" SourceID="{{listid:RFPOcean}}" StaticName="SpecialAtDestination_CNR" Name="SpecialAtDestination_CNR" ColName="float16" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="Home.aspx" PromoteAsNewsArticle="false" Overwrite="true" Layout="Home" Title="Home">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" ControlId="319b01f0-9203-4a9c-85ed-95723997db04" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" />
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

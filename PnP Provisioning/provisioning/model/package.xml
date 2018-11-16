@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema https://raw.githubusercontent.com/OfficeDev/PnP-Provisioning-Schema/master/OfficeDevPnP.ProvisioningSchema/ProvisioningSchema-2018-05.xsd">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.26.1805.1, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Tenant>
+    <pnp:AppCatalog>
+      <pnp:Package Src="..\..\sharepoint\solution\jsxl.sppkg" Action="UploadAndPublish" Overwrite="true" />
+    </pnp:AppCatalog>
+  </pnp:Tenant>
+  <pnp:Templates ID="TECHNICOLOR-COST-CALCULATOR">
+    <pnp:ProvisioningTemplate ID="TECHNICOLOR-COST-CALCULATOR-TEMPLATE" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
