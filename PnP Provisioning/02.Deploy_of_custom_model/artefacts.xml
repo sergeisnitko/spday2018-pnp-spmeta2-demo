@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema https://raw.githubusercontent.com/OfficeDev/PnP-Provisioning-Schema/master/OfficeDevPnP.ProvisioningSchema/ProvisioningSchema-2018-05.xsd">
-  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.26.1805.1, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.26.1805.1, Culture=neutral, PublicKeyToken=5e633289e95c321a">
+    <pnp:Parameters>
+      <pnp:Parameter Required="true" Key="OneOfTheTitles">sergei.snitko@msdev02.onmicrosoft.com</pnp:Parameter>
+    </pnp:Parameters>    
+  </pnp:Preferences>
   <pnp:Templates ID="CONTAINER-PNP-DEMO-TEMPLATE">
     <pnp:ProvisioningTemplate ID="PNP-DEMO-TEMPLATE" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
       <pnp:WebSettings NoCrawl="false" SiteLogo="" AlternateCSS="" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/seattle.master" />
@@ -81,6 +85,23 @@
               <RowLimit Paged="TRUE">25</RowLimit>
             </View>
           </pnp:Views>
+				  <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
+					  <pnp:DataRow>
+						  <pnp:DataValue FieldName='Title'>Sergei snitko</pnp:DataValue>
+						  <pnp:DataValue FieldName='DemosEmail'>sergei.snitko@arvosys.com</pnp:DataValue>
+						  <pnp:DataValue FieldName='DemosPhoneNumber'>{parameter:OneOfTheTitles}</pnp:DataValue>
+					  </pnp:DataRow>
+					  <pnp:DataRow>
+						  <pnp:DataValue FieldName='Title'>Andrew Koltyakov</pnp:DataValue>
+						  <pnp:DataValue FieldName='DemosEmail'>andrew.koltyakov@arvosys.com</pnp:DataValue>
+						  <pnp:DataValue FieldName='DemosPhoneNumber'>+79050000000</pnp:DataValue>
+					  </pnp:DataRow>
+					  <pnp:DataRow>
+						  <pnp:DataValue FieldName='Title'>Vlad Ivanov</pnp:DataValue>
+						  <pnp:DataValue FieldName='DemosEmail'>vlad.ivanov@arvosys.com</pnp:DataValue>
+						  <pnp:DataValue FieldName='DemosPhoneNumber'>+79210000000</pnp:DataValue>
+					  </pnp:DataRow>
+				  </pnp:DataRows>        
         </pnp:ListInstance>
         <pnp:ListInstance Title="Functions" TemplateType="100" Url="Lists/Functions" EnableVersioning="true" ContentTypesEnabled="true">
           <pnp:ContentTypeBindings>
