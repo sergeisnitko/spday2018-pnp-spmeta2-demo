@@ -10,6 +10,7 @@
     "pack": "gulp clean && node ./scripts/config && gulp build --ship & gulp bundle --ship & gulp package-solution --ship",
     "deploy": "powershell .\\provisioning\\Deploy.ps1",
     "export": "powershell .\\provisioning\\Export.ps1",
+    "noscript": "powershell .\\provisioning\\NoScriptSite.ps1",
     "deploy:exported": "npm run deploy -- -SchemaPath .\\01.Export-Import_site_template\\exported-template.xml",
     "deploy:artefacts": "npm run deploy -- -SchemaPath .\\02.Deploy_of_custom_model\\artefacts.xml"
   },
