@@ -61,57 +61,5 @@ namespace spmeta2.demo.Artefacts
         }
         #endregion
 
-        /**
-         * 
-         * Content types data structure definition
-         * Mapping with site columns (standard and from the model)
-         * 
-         */
-        #region Content types mappings
-        public static WebModelNode AddContactContentType(this WebModelNode node)
-        {
-            node
-                .AddContentType(Contact(), contentType =>
-                {
-                    contentType
-                        .AddContentTypeFieldLink(new ContentTypeFieldLinkDefinition
-                        {
-                            FieldId = BuiltInFieldId.Title,
-                            DisplayName = "Name",
-                            Required = true
-                        })
-                        .AddContentTypeFieldLink(FieldsInfo.Email())
-                        .AddContentTypeFieldLink(FieldsInfo.PhoneNumber())
-                        ;
-                });
-            return node;
-        }
-
-        public static WebModelNode AddFunctionContentType(this WebModelNode node)
-        {
-            node
-                .AddContentType(Function(), contentType =>
-                {
-                    contentType
-                        .AddContentTypeFieldLink(FieldsInfo.Owner())
-                        .AddContentTypeFieldLink(FieldsInfo.EmployeesCount())
-                        ;
-                });
-            return node;
-        }
-
-        public static WebModelNode AddSubFunctionContentType(this WebModelNode node)
-        {
-            node
-                .AddContentType(SubFunction(), contentType =>
-                {
-                    contentType
-                        .AddContentTypeFieldLink(FieldsInfo.Function())
-                        .AddContentTypeFieldLink(FieldsInfo.Owner())
-                        ;
-                });
-            return node;
-        }
-        #endregion
     }
 }

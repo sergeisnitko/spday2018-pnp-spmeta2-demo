@@ -106,18 +106,6 @@ namespace spmeta2.demo.Artefacts
             };
         }
 
-        public static WebModelNode AddDemosFields(this WebModelNode node)
-        {
-            node
-                .AddField(FieldsInfo.Email())
-                .AddField(FieldsInfo.PhoneNumber())
-                .AddField(FieldsInfo.EmployeesCount())
-                .AddField(FieldsInfo.Owner())
-                .AddField(FieldsInfo.Function())
-
-                ;
-            return node;
-        }
         #endregion
     }
 }

@@ -1,6 +1,7 @@
 ﻿using spmeta2.demo.Common;
 using SPMeta2.BuiltInDefinitions;
 using SPMeta2.Definitions;
+using SPMeta2.Enumerations;
 using SPMeta2.Syntax.Default;
 using SPMeta2.Syntax.Default.Utils;
 using SPMeta2.Utils;
@@ -59,11 +60,43 @@ namespace spmeta2.demo.Artefacts
                     {
                         Url = ListsInfo.Contacts().CustomUrl
                     })
+
                     .AddWebFeature(FeaturesInfo.DisableMinimalDownloadStrategy)
-                    .AddDemosFields()
-                    .AddContactContentType()
-                    .AddFunctionContentType()
-                    .AddSubFunctionContentType()
+
+                    .AddField(FieldsInfo.Email())
+                    .AddField(FieldsInfo.PhoneNumber())
+                    .AddField(FieldsInfo.EmployeesCount())
+                    .AddField(FieldsInfo.Owner())
+                    .AddField(FieldsInfo.Function())
+
+                    .AddContentType(ContentTypesInfo.Contact(), contentType =>
+                    {
+                        contentType
+                            .AddContentTypeFieldLink(new ContentTypeFieldLinkDefinition
+                            {
+                                FieldId = BuiltInFieldId.Title,
+                                DisplayName = "Name",
+                                Required = true
+                            })
+                            .AddContentTypeFieldLink(FieldsInfo.Email())
+                            .AddContentTypeFieldLink(FieldsInfo.PhoneNumber())
+                            ;
+                    })
+                    .AddContentType(ContentTypesInfo.Function(), contentType =>
+                    {
+                        contentType
+                            .AddContentTypeFieldLink(FieldsInfo.Owner())
+                            .AddContentTypeFieldLink(FieldsInfo.EmployeesCount())
+                            ;
+                    })
+                    .AddContentType(ContentTypesInfo.SubFunction(), contentType =>
+                    {
+                        contentType
+                            .AddContentTypeFieldLink(FieldsInfo.Function())
+                            .AddContentTypeFieldLink(FieldsInfo.Owner())
+                            ;
+                    })
+
                     .AddList(ListsInfo.Contacts(), List =>
                     {
                         List

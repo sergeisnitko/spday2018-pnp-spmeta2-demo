@@ -17,6 +17,7 @@ namespace spmeta2.console
                 {"deploy",options=>
                     {
                         Deploy.Demo(options.Context);
+                        Deploy.ImportDemo(options.Context);
                     }
                 },{"demo",options=>
                     {
@@ -33,6 +34,9 @@ namespace spmeta2.console
             var forcePropmts = true;
 
             SharePoint.RunCSOM("--configPath='./configs/private.demo.json' --forcePrompts=" + forcePropmts, execFunctions);
+
+            Console.WriteLine("Finished");
+            Console.ReadKey();
         }
     }
 }
